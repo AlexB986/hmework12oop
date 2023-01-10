@@ -19,9 +19,6 @@ public class Book {
         return this.publicYearBook;
     }
 
-    public Author getAuthor() {
-        return this.author;
-    }
 
     public void setBookName(String bookName) {
         this.bookName = bookName;

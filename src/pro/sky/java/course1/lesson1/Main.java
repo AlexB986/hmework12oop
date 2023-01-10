@@ -12,6 +12,7 @@ public class Main {
         tolstoy.setFamilyNameAuthor("Leva");
         System.out.println("Year " + masterAndMargarita.getPublicYearBook());
         System.out.println(tolstoy.getFamilyNameAuthor());
+        System.out.println(tolstoy.getFirstNameAuthor());
     }
 }
 
