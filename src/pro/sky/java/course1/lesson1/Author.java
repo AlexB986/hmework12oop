@@ -1,28 +1,27 @@
 package pro.sky.java.course1.lesson1;
 
 public class Author {
-    private String FirstNameAuthor;
-    private String FamilyNameAuthor;
+    private String firstNameAuthor;
+    private String familyNameAuthor;
 
-
-    public Author(String FirstNameAuthor, String FamilyNameAuthor) {
-        this.FirstNameAuthor = FirstNameAuthor;
-        this.FamilyNameAuthor = FamilyNameAuthor;
+    public Author(String firstNameAuthor, String familyNameAuthor) {
+        this.firstNameAuthor = firstNameAuthor;
+        this.familyNameAuthor = familyNameAuthor;
     }
 
     public String getFirstNameAuthor() {
-        return this.FirstNameAuthor;
+        return this.firstNameAuthor;
     }
 
     public String getFamilyNameAuthor() {
-        return this.FamilyNameAuthor;
+        return this.familyNameAuthor;
     }
 
-    public void setFirstNameAuthor(String FirstNameAuthor) {
-        this.FirstNameAuthor = FirstNameAuthor;
+    public void setFirstNameAuthor(String firstNameAuthor) {
+        this.firstNameAuthor = firstNameAuthor;
     }
 
-    public void setFamilyNameAuthor(String FamilyNameAuthor) {
-        this.FamilyNameAuthor = FamilyNameAuthor;
+    public void setFamilyNameAuthor(String familyNameAuthor) {
+        this.familyNameAuthor = familyNameAuthor;
     }
 }
